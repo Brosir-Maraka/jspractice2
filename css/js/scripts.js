@@ -1,7 +1,6 @@
-add ()
-var add = function(number1, number2) {
-    return number1 + number2;
-  };
-  var number1 = prompt("Enter a number:");
-  var number2 = prompt("Enter another number:");
-  alert(add(number1, number2));
+var oddEven =function(Number1){
+    return Number1 % 2};
+    var Number1= paerseInt (prompt ("Enter any number"));
+    var result= oddEven (Number1);
+    if (result >0) { alert ("The Number is Odd")}
+    else {alert ("The nmber is even")}
